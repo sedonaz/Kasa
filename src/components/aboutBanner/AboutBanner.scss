@@ -1,0 +1,45 @@
+.banniereAp {
+    background-image: url("../../assets/images/BanniereAp.png");
+    border-radius: 25px;
+    height: 223px;
+    margin-bottom: 35px;
+    position: relative;
+    width: 85%;
+    margin-left: 100px;
+
+    &__cover {
+        background-color: #000000;
+        border-radius: 25px;
+        height: 100%;
+        left: 0;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .banniereAp {
+        margin: auto;
+
+        &__txt {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banniereAp {
+        margin-top: 17px;
+        background-image: url("../../assets/images/BanniereApMobile.png");
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin: auto;
+
+        &__cover {
+            border-radius: 10px;
+        }
+    }
+}

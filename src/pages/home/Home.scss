@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    font-family: Montserrat;
+
+    .liste-appartements {
+        background-color: #f6f6f6;
+        border-radius: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px 60px;
+        padding: 55px 50px;
+        width: 85%;
+        margin: auto;
+        margin-top: 43px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        .liste-appartements {
+            display: block;
+            background-color: #FFF;
+            padding: 0;
+        }
+    }
+}

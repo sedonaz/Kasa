@@ -1,0 +1,24 @@
+header {
+  align-items: center;
+  display: inline-flex;
+  margin: 40px 10%;
+  width: 80%;
+}
+header img {
+  height: 68px;
+  width: 210.32px;
+}
+header nav {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+header nav .lien {
+  color: #ff6060;
+  margin: auto 25px;
+  text-decoration: none;
+  font-size: 24px;
+}
+header nav .lien__menu.active {
+  border-bottom: 1px solid #ff6060;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,29 @@
+.tags {
+    flex-wrap: wrap;
+    display: flex;
+
+    .tag {
+        background-color: #FF6060;
+        border-radius: 10px;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 14px;
+        min-width: 115px;
+        padding: 5px 15px;
+        text-align: center;
+        margin: 10px 15px 10px 0px;
+
+        :first-of-type {
+            margin-left: unset;
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .tag {
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+}
